@@ -34,7 +34,7 @@ module SprocketsApplication
       end
 
       def asset_path
-        File.join(Rails.public_path, "sprockets.js")
+        File.join(Rails.public_path, "application.js")
       end
 
       def source_is_unchanged?
